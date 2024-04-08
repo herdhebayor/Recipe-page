@@ -1,0 +1,90 @@
+*{
+  - Nutmeg: hsl(14, 45%, 36%)
+- Dark Raspberry: hsl(332, 51%, 32%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Rose White: hsl(330, 100%, 98%)
+- Eggshell: hsl(30, 54%, 90%)
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%)
+- Dark Charcoal: hsl(24, 5%, 18%)
+
+}
+
+
+html, body{
+  margin: 0;
+  background: hsl(30, 54%, 90%);
+  color:hsl(30, 10%, 34%) ;
+  width: 100%;
+  height: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container{
+  width: 600px;
+  height: fit-content;
+  padding: 20px;
+  background:hsl(0, 0%, 100%);
+  margin: auto;
+  border-radius: 10px;
+}
+.food-img, img{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.head-text, .values b{
+   color:hsl(14, 45%, 36%) ;
+ }
+.preparation{
+  background: hsl(330, 100%, 98%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.preparation .head-text{
+    color:hsl(332, 51%, 32%);
+ }
+ ul, ol{
+   line-height: 30px;
+ }
+.nutrient-result{
+  display: flex;
+}
+.nutrient, .values{
+  width: 50%;
+  height: fit-content;
+  padding: 0 10px;
+}
+b{
+  color: hsl(24, 5%, 18%);
+}
+ 
+ .attribution { 
+   font-size: 11px;
+   text-align:center;
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+   width: 100%;
+   }
+    .attribution a { 
+      color: hsl(228, 45%, 44%);
+      }
+  @media screen and (max-width:y00px){
+    html{
+      scroll-behavior: smooth;
+    }
+    .container{
+      width: 100%;
+      min-height: fit-content;
+      margin: 10px;
+    }
+  }
