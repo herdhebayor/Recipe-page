@@ -67,11 +67,12 @@ b{
       }
   @media screen and (max-width:y00px){
     html{
-      scroll-behavior: smooth;
+      scroll-behavior:smooth;
+      padding: 10px;
     }
     .container{
       width: 100%;
       min-height: fit-content;
-      margin: 10px;
+      height: 100%;
     }
   }
