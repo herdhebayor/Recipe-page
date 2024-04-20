@@ -2,6 +2,7 @@
 
 
 html, body{
+  scroll-behavior:smooth;
   margin: 0;
   background: hsl(30, 54%, 90%);
   color:hsl(30, 10%, 34%) ;
@@ -14,6 +15,8 @@ body{
   position: relative;
   width: 100%;
   height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .container{
   width: 600px;
@@ -67,9 +70,8 @@ b{
       color: hsl(228, 45%, 44%);
       }
   @media screen and (max-width:y00px){
-    html{
-      scroll-behavior:smooth;
-      padding: 10px;
+    body{
+      padding: 20px;
     }
     .container{
       width: 100%;
